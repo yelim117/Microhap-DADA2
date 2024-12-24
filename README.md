@@ -16,7 +16,7 @@ R scripts for microhaplotype analysis of MiSeq sequencing data using DADA2.
 ## FASTQ File Preparation
 - This pipeline is designed to use **forward reads** generated from MiSeq, which provides high sequencing quality.
   **Paired-end reads merged into a single FASTQ file are not recommended** due to potential quality issues in reverse reads.
-- At least **two FASTQ files** are required to run the **DADA2-MiSeq_SE.r**.
+- At least **two FASTQ files** are required to run this pipeline.
 - The FASTQ files should be generated from the **same batch of sequencing** to ensure consistent error modeling and quality control.
 - Make sure to modify the path in the script to reflect the actual path of your FASTQ files
   (e.g., "E:/DADA2/MH-MiSeq"). 
