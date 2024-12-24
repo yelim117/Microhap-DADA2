@@ -14,7 +14,8 @@ R scripts for microhaplotype analysis of MiSeq data using DADA2.
 
 
 ## FASTQ File Preparation
-- At least **two FASTQ files** are required to run the DADA2 pipeline.
+- At least **two FASTQ files** are required to run the **DADA2-MiSeq_SE.r**.
+- The FASTQ files should be generated from the **same batch of sequencing** to ensure consistent error modeling and quality control.
 - Make sure to modify the path in the script to reflect the actual path of your FASTQ files
   (e.g., "E:/DADA2/MH-MiSeq"). 
 
