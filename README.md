@@ -1,5 +1,5 @@
 # Microhap-DADA2-Rscript
-R scripts for microhaplotype analysis of MiSeq single-end sequencing data using DADA2.
+R scripts for microhaplotype analysis of MiSeq sequencing data using DADA2.
 
 
 ## Requirements
